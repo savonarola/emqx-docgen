@@ -43,7 +43,7 @@ while [[ $# -gt 0 ]]; do
             shift
             ;;
         e*)
-            export PROFILE='emqx-enterprise'
+            export PROFILE='emqx-platform'
             VERSION="${1}"
             DEFAULT_REPO="https://github.com/emqx/emqx-platform.git"
             shift
